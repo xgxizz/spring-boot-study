@@ -9,8 +9,8 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>spring-boot-demo-starter</module>
-        <module>spring-boot-demo-web</module>
+        <module>spring-boot-starter-demo-starter</module>
+        <module>spring-boot-starter-demo-web</module>
     </modules>
 
     <properties>
