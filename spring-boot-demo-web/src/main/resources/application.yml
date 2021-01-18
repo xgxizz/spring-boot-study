@@ -1,0 +1,7 @@
+#yml方式
+demo:
+  on: true
+  url: localhost:8888
+  driver: com.xgxizz.driver
+  username: xgx
+  password: 123456

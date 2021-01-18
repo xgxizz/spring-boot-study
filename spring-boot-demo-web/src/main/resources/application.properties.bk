@@ -1,0 +1,6 @@
+#properties方式
+demo.on=true
+demo.url=localhost:8888
+demo.driver=com.xgxizz.driver
+demo.username=xgx
+demo.password=123456
