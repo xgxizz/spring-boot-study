@@ -12,6 +12,8 @@
         <module>spring-boot-starter-demo-starter</module>
         <module>spring-boot-starter-demo-web</module>
         <module>spring-boot-bean-lifecycle</module>
+        <module>spring-boot-transactional</module>
+        <module>spring-boot-threadpool</module>
     </modules>
 
     <properties>

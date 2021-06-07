@@ -2,6 +2,7 @@ package com.xgx.springboot;
 
 import com.xgx.springboot.bean.UserService;
 import com.xgx.springboot.config.AppConfig;
+import org.springframework.beans.factory.support.DefaultSingletonBeanRegistry;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -17,6 +18,8 @@ public class BeanLifeCycleMain {
         UserService userService = context.getBean(UserService.class);
         String beanName = userService.getBeanName();
         System.out.println(beanName);
+        context.getBean("");
+        //DefaultSingletonBeanRegistry
     }
 
 }
