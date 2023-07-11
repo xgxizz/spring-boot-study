@@ -1,2 +1,2 @@
-#-------starter自动装配---------
+#-------starter autowire---------
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.xgx.springboot.config.DemoConfig
