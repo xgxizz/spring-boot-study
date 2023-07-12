@@ -23,7 +23,7 @@ import org.springframework.context.annotation.Configuration;
 public class DemoConfig {
 
     @Bean(name = "demoService")
-    public DemoService demoService(DemoProperties demoProperties){
+    public DemoService demoService(DemoProperties demoProperties) {
         return new DemoService(demoProperties.getUrl(),
                 demoProperties.getDriver(),
                 demoProperties.getUsername(),
