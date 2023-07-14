@@ -1,0 +1,11 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /springboot-shiro-demo
+spring:
+  application:
+    name: springboot-shiro-demo
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
