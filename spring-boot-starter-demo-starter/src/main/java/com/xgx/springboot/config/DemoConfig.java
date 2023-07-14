@@ -14,11 +14,10 @@ import org.springframework.context.annotation.Configuration;
  * date: 2021/1/15 16:15 <br/>
  */
 @Configuration
-//@EnableConfigurationProperties 注解。该注解是用来开启@ConfigurationProperties 注解配置Bean的支持。
+//@EnableConfigurationProperties 注解。该注解是用来开启@ConfigurationProperties注解配置Bean的支持。
 //也就是@EnableConfigurationProperties注解告诉Spring Boot 能支持@ConfigurationProperties。
 @EnableConfigurationProperties(DemoProperties.class)
-//@ConditionalOnProperty 注解控制 @Configuration 是否生效。
-//如下：设置demo.on=true时starter才生效。matchIfMissing = true表示全词匹配不成功则通过解析识别配置
+//@ConditionalOnProperty 指定属性不存在时是否应用配置。默认为false，即属性缺失时不应用配置。
 @ConditionalOnProperty(prefix = "demo", name = "on", havingValue = "true",matchIfMissing = true)
 public class DemoConfig {
 
