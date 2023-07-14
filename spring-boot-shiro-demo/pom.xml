@@ -9,6 +9,10 @@
     <artifactId>spring-boot-shiro-demo</artifactId>
     <packaging>war</packaging>
     <name>spring-boot-shiro-demo</name>
+
+    <properties>
+        <shiro.version>1.7.0</shiro.version>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -45,7 +49,7 @@
         <dependency>
             <groupId>org.apache.shiro</groupId>
             <artifactId>shiro-spring-boot-starter</artifactId>
-            <version>1.5.3</version>
+            <version>${shiro.version}</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
