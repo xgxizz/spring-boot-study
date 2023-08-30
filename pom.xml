@@ -15,6 +15,7 @@
         <module>spring-boot-transactional</module>
         <module>spring-boot-threadpool</module>
         <module>spring-boot-shiro-demo</module>
+        <module>spring-boot-web-demo</module>
     </modules>
 
     <properties>
