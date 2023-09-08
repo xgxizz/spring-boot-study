@@ -1,0 +1,10 @@
+
+#spring:
+#  mvc:
+#    cors:
+#      # 允许任何源
+#      allowed-origins: "*"
+#      # 允许的HTTP方法
+#      allowed-methods: GET,POST,PUT,DELETE
+#      # 允许的请求头
+#      allowed-headers: Content-Type,Authorization
