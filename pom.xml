@@ -16,6 +16,8 @@
         <module>spring-boot-threadpool</module>
         <module>spring-boot-shiro-demo</module>
         <module>spring-boot-web-demo</module>
+        <module>spring-boot-cyclic-dependency</module>
+        <module>spring-boot-use-design-partterns</module>
     </modules>
 
     <properties>

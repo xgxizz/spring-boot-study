@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xgx.springboot.mapper.DbBasicDataMapper">
+    
+    <resultMap type="DbbasicData" id="DbbasicDataResult">
+        <result property="targetValue"    column="target_value"    />
+        <result property="targetId"    column="target_id"    />
+        <result property="dbPort"    column="db_port"    />
+        <result property="collectTime"    column="collect_time"    />
+        <result property="stampTime"    column="stamp_time"    />
+        <result property="deviceIp"    column="device_ip"    />
+        <result property="alarmLevel"    column="alarm_level"    />
+        <result property="targetName"    column="target_name"    />
+        <result property="alarmLocateinfo"    column="alarm_locateinfo"    />
+
+    </resultMap>
+
+    <delete id="deleteDbbasicDataByIds" parameterType="String">
+        delete from dbbasicdata_20211130 where target_id in 
+        <foreach item="targetId" collection="array" open="(" separator="," close=")">
+            #{targetId}
+        </foreach>
+    </delete>
+    
+</mapper>
