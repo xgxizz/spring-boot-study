@@ -1,0 +1,4 @@
+server:
+  port: 8088
+rocketmq:
+  name-server: 10.1.198.90:9876,10.28.148.223:9876
