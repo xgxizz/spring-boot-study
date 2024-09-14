@@ -19,6 +19,9 @@
         <module>spring-boot-cyclic-dependency</module>
         <module>spring-boot-use-design-partterns</module>
         <module>spring-boot-rocketmq</module>
+        <module>spring-boot-redis-demo</module>
+        <module>distributed-lock</module>
+        <module>spring-boot-websocket</module>
     </modules>
 
     <properties>

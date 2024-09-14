@@ -1,0 +1,17 @@
+server:
+  port: 8888
+  maxHttpHeaderSize: 102400
+  servlet:
+    context-path: /api
+  error:
+    include-exception: false
+    include-message: always
+  undertow:
+    max-http-post-size: -1
+spring:
+  application:
+    name: coordination-server
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
